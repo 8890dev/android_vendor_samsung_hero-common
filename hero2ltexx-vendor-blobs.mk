@@ -191,7 +191,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero2ltexx/proprietary/lib/omx/libOMX.Exynos.VP9.Encoder.so:system/lib/omx/libOMX.Exynos.VP9.Encoder.so \
   vendor/samsung/hero2ltexx/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:system/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
   vendor/samsung/hero2ltexx/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-  vendor/samsung/hero2ltexx/proprietary/bin/cbd:system/bin/cbd \
   vendor/samsung/hero2ltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
   vendor/samsung/hero2ltexx/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
   vendor/samsung/hero2ltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
