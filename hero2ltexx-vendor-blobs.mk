@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero2ltexx/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
   vendor/samsung/hero2ltexx/proprietary/vendor/firmware/bcm4359C0_V0028.0049_semco.hcd:system/vendor/firmware/bcm4359C0_V0028.0049_semco.hcd \
   vendor/samsung/hero2ltexx/proprietary/vendor/firmware/bcm4359C0_V0028.0050_murata.hcd:system/vendor/firmware/bcm4359C0_V0028.0050_murata.hcd \
+  vendor/samsung/hero2ltexx/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
   vendor/samsung/hero2ltexx/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
   vendor/samsung/hero2ltexx/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
   vendor/samsung/hero2ltexx/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:system/app/mcRegistry/07060000000000000000000000000000.tlbin \
@@ -150,8 +151,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero2ltexx/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
   vendor/samsung/hero2ltexx/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
   vendor/samsung/hero2ltexx/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
-  vendor/samsung/hero2ltexx/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
-  vendor/samsung/hero2ltexx/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+  vendor/samsung/hero2ltexx/proprietary/lib/hw/fingerprint.universal8890.so:system/lib/hw/fingerprint.universal8890.so \
+  vendor/samsung/hero2ltexx/proprietary/lib64/hw/fingerprint.universal8890.so:system/lib64/hw/fingerprint.universal8890.so \
   vendor/samsung/hero2ltexx/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
   vendor/samsung/hero2ltexx/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
   vendor/samsung/hero2ltexx/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
@@ -164,7 +165,18 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero2ltexx/proprietary/lib64/libexynosutils.so:system/lib64/libexynosutils.so \
   vendor/samsung/hero2ltexx/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
   vendor/samsung/hero2ltexx/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
-  vendor/samsung/hero2ltexx/proprietary/bin/lhd:system/bin/lhd \
+  vendor/samsung/hero2ltexx/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplay.so \
+  vendor/samsung/hero2ltexx/proprietary/lib64/libvirtualdisplay.so:system/lib64/libvirtualdisplay.so \
+  vendor/samsung/hero2ltexx/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
+  vendor/samsung/hero2ltexx/proprietary/lib64/libExynosHWCService.so:system/lib64/libExynosHWCService.so \
+  vendor/samsung/hero2ltexx/proprietary/lib/libdisplay.so:system/lib/libdisplay.so \
+  vendor/samsung/hero2ltexx/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
+  vendor/samsung/hero2ltexx/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
+  vendor/samsung/hero2ltexx/proprietary/lib/libfimg.so:system/lib/libfimg.so \
+  vendor/samsung/hero2ltexx/proprietary/lib64/libdisplay.so:system/lib64/libdisplay.so \
+  vendor/samsung/hero2ltexx/proprietary/lib64/libhdmi.so:system/lib64/libhdmi.so \
+  vendor/samsung/hero2ltexx/proprietary/lib64/libhwcutils.so:system/lib64/libhwcutils.so \
+  vendor/samsung/hero2ltexx/proprietary/lib64/libfimg.so:system/lib64/libfimg.so \
   vendor/samsung/hero2ltexx/proprietary/lib/libion.so:system/lib/libion.so \
   vendor/samsung/hero2ltexx/proprietary/lib64/libion.so:system/lib64/libion.so \
   vendor/samsung/hero2ltexx/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
@@ -227,6 +239,9 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero2ltexx/proprietary/lib64/libtlc_tz_iccc.so:system/lib64/libtlc_tz_iccc.so \
   vendor/samsung/hero2ltexx/proprietary/lib/libtlc_tz_keystore.so:system/lib/libtlc_tz_keystore.so \
   vendor/samsung/hero2ltexx/proprietary/lib64/libtlc_tz_keystore.so:system/lib64/libtlc_tz_keystore.so \
+  vendor/samsung/hero2ltexx/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+  vendor/samsung/hero2ltexx/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
+  vendor/samsung/hero2ltexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
   vendor/samsung/hero2ltexx/proprietary/etc/wifi/bcmdhd_apsta.bin_b1:system/etc/wifi/bcmdhd_apsta.bin_b1 \
   vendor/samsung/hero2ltexx/proprietary/etc/wifi/bcmdhd_apsta.bin_b90s_b1:system/etc/wifi/bcmdhd_apsta.bin_b90s_b1 \
   vendor/samsung/hero2ltexx/proprietary/etc/wifi/bcmdhd_apsta.bin_c0:system/etc/wifi/bcmdhd_apsta.bin_c0 \

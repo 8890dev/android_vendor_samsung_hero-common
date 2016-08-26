@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<palmmotion>
+    <palmconfigs deviceName="hero2lte" 
+         thresholdPalmCount="2"
+         thresholdMajorTouch="50.0"
+         thresholdMajorSweepPortrait="100.0"
+         thresholdMajorSweepLandscape="50.0"
+         thresholdEccenSweepPortrait="2"
+         thresholdEccenSweepLandscape="2"
+         ignoreCheckMajorSweepEntry="false"
+        />
+</palmmotion>
+
