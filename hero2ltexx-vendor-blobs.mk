@@ -128,19 +128,10 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero2ltexx/proprietary/lib64/libuniapi.so:system/lib64/libuniapi.so \
   vendor/samsung/hero2ltexx/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
   vendor/samsung/hero2ltexx/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
-  vendor/samsung/hero2ltexx/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
-  vendor/samsung/hero2ltexx/proprietary/lib64/hw/hwcomposer.exynos5.so:system/lib64/hw/hwcomposer.exynos5.so \
-  vendor/samsung/hero2ltexx/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-  vendor/samsung/hero2ltexx/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
-  vendor/samsung/hero2ltexx/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
-  vendor/samsung/hero2ltexx/proprietary/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
-  vendor/samsung/hero2ltexx/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
-  vendor/samsung/hero2ltexx/proprietary/lib64/libexynosutils.so:system/lib64/libexynosutils.so \
   vendor/samsung/hero2ltexx/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
   vendor/samsung/hero2ltexx/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
   vendor/samsung/hero2ltexx/proprietary/bin/gps.cer:system/bin/gps.cer \
   vendor/samsung/hero2ltexx/proprietary/bin/gpsd:system/bin/gpsd \
-  vendor/samsung/hero2ltexx/proprietary/bin/lhd:system/bin/lhd \
   vendor/samsung/hero2ltexx/proprietary/lib64/hw/gps.universal8890.so:system/lib64/hw/gps.universal8890.so \
   vendor/samsung/hero2ltexx/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
   vendor/samsung/hero2ltexx/proprietary/lib64/libwrappergps.so:system/lib64/libwrappergps.so \
@@ -322,5 +313,5 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero2ltexx/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
   vendor/samsung/hero2ltexx/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
   vendor/samsung/hero2ltexx/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
-  vendor/samsung/hero2ltexx/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+  vendor/samsung/hero2ltexx/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
   vendor/samsung/hero2ltexx/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
