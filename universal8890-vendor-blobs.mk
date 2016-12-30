@@ -150,6 +150,10 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/universal8890/proprietary/lib64/libflashedlls_interface.so:system/lib64/libflashedlls_interface.so \
   vendor/samsung/universal8890/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
   vendor/samsung/universal8890/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
+  vendor/samsung/universal8890/proprietary/lib/libion.so:system/lib/libion.so \
+  vendor/samsung/universal8890/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
+  vendor/samsung/universal8890/proprietary/lib64/libion.so:system/lib64/libion.so \
+  vendor/samsung/universal8890/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
   vendor/samsung/universal8890/proprietary/bin/gps.cer:system/bin/gps.cer \
   vendor/samsung/universal8890/proprietary/bin/gpsd:system/bin/gpsd \
   vendor/samsung/universal8890/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
