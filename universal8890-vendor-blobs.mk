@@ -156,6 +156,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/universal8890/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
   vendor/samsung/universal8890/proprietary/bin/gps.cer:system/bin/gps.cer \
   vendor/samsung/universal8890/proprietary/bin/gpsd:system/bin/gpsd \
+  vendor/samsung/universal8890/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
   vendor/samsung/universal8890/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
   vendor/samsung/universal8890/proprietary/lib64/libwrappergps.so:system/lib64/libwrappergps.so \
   vendor/samsung/universal8890/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
@@ -175,28 +176,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/universal8890/proprietary/lib64/hw/sensors.universal8890.so:system/lib64/hw/sensors.universal8890.so \
   vendor/samsung/universal8890/proprietary/lib64/libmaxflicker.so:system/lib64/libmaxflicker.so \
   vendor/samsung/universal8890/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
-  vendor/samsung/universal8890/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
-  vendor/samsung/universal8890/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
-  vendor/samsung/universal8890/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
-  vendor/samsung/universal8890/proprietary/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
-  vendor/samsung/universal8890/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
-  vendor/samsung/universal8890/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so \
-  vendor/samsung/universal8890/proprietary/lib64/omx/libOMX.Exynos.VP8.Decoder.so:system/lib64/omx/libOMX.Exynos.VP8.Decoder.so \
-  vendor/samsung/universal8890/proprietary/lib64/omx/libOMX.Exynos.VP8.Encoder.so:system/lib64/omx/libOMX.Exynos.VP8.Encoder.so \
-  vendor/samsung/universal8890/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:system/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
-  vendor/samsung/universal8890/proprietary/lib64/omx/libOMX.Exynos.VP9.Encoder.so:system/lib64/omx/libOMX.Exynos.VP9.Encoder.so \
-  vendor/samsung/universal8890/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:system/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
-  vendor/samsung/universal8890/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-  vendor/samsung/universal8890/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-  vendor/samsung/universal8890/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
-  vendor/samsung/universal8890/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
-  vendor/samsung/universal8890/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-  vendor/samsung/universal8890/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-  vendor/samsung/universal8890/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-  vendor/samsung/universal8890/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-  vendor/samsung/universal8890/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
-  vendor/samsung/universal8890/proprietary/lib/omx/libOMX.Exynos.VP9.Encoder.so:system/lib/omx/libOMX.Exynos.VP9.Encoder.so \
-  vendor/samsung/universal8890/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
   vendor/samsung/universal8890/proprietary/etc/wifi/bcmdhd_apsta.bin_b1:system/etc/wifi/bcmdhd_apsta.bin_b1 \
   vendor/samsung/universal8890/proprietary/etc/wifi/bcmdhd_apsta.bin_b90s_b1:system/etc/wifi/bcmdhd_apsta.bin_b90s_b1 \
   vendor/samsung/universal8890/proprietary/etc/wifi/bcmdhd_apsta.bin_c0:system/etc/wifi/bcmdhd_apsta.bin_c0 \
