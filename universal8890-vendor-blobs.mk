@@ -176,6 +176,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/universal8890/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
   vendor/samsung/universal8890/proprietary/lib64/hw/sensorhubs.universal8890.so:system/lib64/hw/sensorhubs.universal8890.so \
   vendor/samsung/universal8890/proprietary/lib64/hw/sensors.universal8890.so:system/lib64/hw/sensors.universal8890.so \
+  vendor/samsung/universal8890/proprietary/lib64/libagc_max.so:system/lib64/libagc_max.so \
   vendor/samsung/universal8890/proprietary/lib64/libmaxflicker.so:system/lib64/libmaxflicker.so \
   vendor/samsung/universal8890/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
   vendor/samsung/universal8890/proprietary/etc/wifi/bcmdhd_apsta.bin_b1:system/etc/wifi/bcmdhd_apsta.bin_b1 \
