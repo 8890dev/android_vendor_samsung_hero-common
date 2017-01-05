@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/universal8890/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
   vendor/samsung/universal8890/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/samsung/universal8890/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+  vendor/samsung/universal8890/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
   vendor/samsung/universal8890/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
   vendor/samsung/universal8890/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
   vendor/samsung/universal8890/proprietary/lib/libxml2.so:system/lib/libxml2.so \
@@ -61,6 +62,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/universal8890/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
   vendor/samsung/universal8890/proprietary/lib64/libril.so:system/lib64/libril.so \
   vendor/samsung/universal8890/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
+  vendor/samsung/universal8890/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
   vendor/samsung/universal8890/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
   vendor/samsung/universal8890/proprietary/lib64/libsecril-client.so:system/lib64/libsecril-client.so \
   vendor/samsung/universal8890/proprietary/lib64/libxml2.so:system/lib64/libxml2.so \
