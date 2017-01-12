@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,38 +18,14 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0076.0133_murata.hcd:system/vendor/firmware/bcm4359C0_V0076.0133_murata.hcd \
   vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0076.0132_semco.hcd:system/vendor/firmware/bcm4359C0_V0076.0132_semco.hcd \
   vendor/samsung/hero-common/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:system/app/mcRegistry/07060000000000000000000000000000.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/08130000000000000000000000000000.tlbin:system/app/mcRegistry/08130000000000000000000000000000.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
   vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:system/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:system/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000012.tlbin:system/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000013.tlbin:system/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000014.tlbin:system/app/mcRegistry/ffffffff000000000000000000000014.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:system/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:system/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000038.tlbin:system/app/mcRegistry/ffffffff000000000000000000000038.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff000000000000000000000041.tlbin:system/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
   vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
   vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
-  vendor/samsung/hero-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
-  vendor/samsung/hero-common/proprietary/bin/cs:system/bin/cs \
   vendor/samsung/hero-common/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
-  vendor/samsung/hero-common/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
-  vendor/samsung/hero-common/proprietary/vendor/lib64/libMcClient.so:system/vendor/lib64/libMcClient.so \
+  vendor/samsung/hero-common/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
+  vendor/samsung/hero-common/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
+  vendor/samsung/hero-common/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
+  vendor/samsung/hero-common/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
   vendor/samsung/hero-common/proprietary/bin/rild:system/bin/rild \
   vendor/samsung/hero-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
   vendor/samsung/hero-common/proprietary/lib/libril.so:system/lib/libril.so \
@@ -179,6 +155,12 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libagc_max.so:system/lib64/libagc_max.so \
   vendor/samsung/hero-common/proprietary/lib64/libmaxflicker.so:system/lib64/libmaxflicker.so \
   vendor/samsung/hero-common/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
+  vendor/samsung/hero-common/proprietary/bin/fingerprintd:system/bin/fingerprintd \
+  vendor/samsung/hero-common/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+  vendor/samsung/hero-common/proprietary/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
+  vendor/samsung/hero-common/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
+  vendor/samsung/hero-common/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
   vendor/samsung/hero-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
   vendor/samsung/hero-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
   vendor/samsung/hero-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
