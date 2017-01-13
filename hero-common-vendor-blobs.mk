@@ -22,10 +22,10 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
   vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
   vendor/samsung/hero-common/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
-  vendor/samsung/hero-common/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
-  vendor/samsung/hero-common/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
-  vendor/samsung/hero-common/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
-  vendor/samsung/hero-common/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libMcRegistry.so:system/vendor/lib64/libMcRegistry.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libMcClient.so:system/vendor/lib64/libMcClient.so \
   vendor/samsung/hero-common/proprietary/bin/rild:system/bin/rild \
   vendor/samsung/hero-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
   vendor/samsung/hero-common/proprietary/lib/libril.so:system/lib/libril.so \
