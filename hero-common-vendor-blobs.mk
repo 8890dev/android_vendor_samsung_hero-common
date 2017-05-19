@@ -238,4 +238,5 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_murata_c0:system/etc/wifi/nvram_net.txt_murata_c0 \
   vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_wisol:system/etc/wifi/nvram_net.txt_wisol \
   vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_wisol_b1:system/etc/wifi/nvram_net.txt_wisol_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_wisol_c0:system/etc/wifi/nvram_net.txt_wisol_c0
+  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_wisol_c0:system/etc/wifi/nvram_net.txt_wisol_c0 \
+  vendor/samsung/hero-common/proprietary/sbin/cbd:root/sbin/cbd
